@@ -1,0 +1,20 @@
+<html>
+    <body>
+        <script type="text/babel"></script>
+            function Welcome(props){
+                return <h2>Hello {props.name}</h2>;
+            }
+            function App(){
+                return{
+                    <div>
+                        <Welcome name="Rahul"/>
+                        <Welcome name ="Anita"/>
+                        <Welcome name="Rohan"/>
+                        </div>
+                };
+            }
+            const root = ReactDom.creatroot(document.getElementByID("root"));
+            root.render(<App);
+        
+    </body>
+</html>
