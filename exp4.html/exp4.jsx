@@ -1,8 +1,8 @@
 function calculate(){
-    let n= document.getElementById("student").value;
+    let n= document.getElementById("subject").value;
     let total=0;
     for(let i=0;i<n;i++){
-        let marks=Number(prompt("Enter no of subject"+(i+1)))
+        let marks=Number(prompt("Enter marks for subject"+(i+1)))
         total=total+marks;
     }
 

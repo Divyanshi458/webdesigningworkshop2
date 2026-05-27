@@ -1,0 +1,32 @@
+.header-blue {
+    background-color: #3b82f6;
+    color: white;
+    padding: 70px 0;
+}
+
+.bg-custom-dark {
+    background-color: #212529;
+}
+
+.main-body {
+    background-color: #eeeeee;
+    padding: 80px 0;
+    min-height: 400px;
+}
+.vertical-line {
+    border-right: 1.5px solid #444;
+    padding-right: 40px;
+}
+.footer-dark {
+    background-color: #343a40;
+    color: white;
+    padding: 15px 0;
+}
+@media (max-width: 767px) {
+    .vertical-line {
+        border-right: none;
+        border-bottom: 1.5px solid #444;
+        padding-bottom: 30px;
+        margin-bottom: 30px;
+    }
+}
